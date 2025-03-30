@@ -3,14 +3,13 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  justify-content: space-between;
 }
 
-/* .section-1,
-.header,
-.sectionone-image,
+.section-1,
 .footer {
   background-color: #1f2937;
-} */
+}
 
 .header {
   display: flex;
@@ -39,14 +38,12 @@ ul {
   display: inline;
 } */
 
-a,
-.secondary-hero-text {
-  font-size: 18px;
-  color: #e5e7eb;
-}
+
 
 a {
   text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .hero-text {
@@ -79,7 +76,6 @@ button {
   gap: 20px;
   padding-bottom: 100px;
   background-color: #1f2937;
-  /* height: 500px; */
 }
 
 
@@ -88,4 +84,16 @@ button {
   flex-direction: column;
   width: 500px;
   gap: 16px;
+}
+.secondary-hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.footer {
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
