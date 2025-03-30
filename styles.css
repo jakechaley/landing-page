@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 24px 150px;
+  padding-bottom: 75px;
 }
 
 
@@ -69,19 +70,18 @@ button {
   justify-content: space-between;
   gap: 18px;
   padding: 0 150px;
+  
 }
 
 .section-1 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0 100px;
+  padding-bottom: 100px;
   background-color: #1f2937;
+  /* height: 500px; */
 }
 
-.sectionone-image {
-  height: 300px;
-}
 
 .hero-text-container {
   display: flex;
