@@ -162,3 +162,16 @@ h1 {
   padding-left: 300px;
   font-size: 24px;
 }
+
+.section-4-container {
+  width: 900px;
+  height: 150px;
+  border-radius: 16px;
+  background-color: #3882f6;
+  margin: 100px;
+}
+
+.section-4 {
+  display: flex;
+  justify-content: center;
+}
