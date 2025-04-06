@@ -169,9 +169,29 @@ h1 {
   border-radius: 16px;
   background-color: #3882f6;
   margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
 }
 
 .section-4 {
   display: flex;
   justify-content: center;
+}
+
+.section-4-text {
+  color: #dddfdb;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4-button {
+  border: solid #e5e7eb;
+}
+
+#call-to-action {
+  margin: 0px;
+  font-size: 24px;
+  color: #f9faf8;
 }
